@@ -220,3 +220,15 @@ The p-value from the Chi-square Test is 0.0000000001414, suggesting that the vac
 
 
 # Overall Results and Conclusions
+
+### MALES
+In the study, the data showed that MALES who received the vaccine were much less likely to get Covid-921. Only 26% of vaccinated males got infected, compared to 74% of those who received a placebo. Statistical tests showed extremely low p-values (0.00000000022), way below 0.05, so we reject the null hypothesis. This means the vaccine works well to reduce the risk of getting Covid-921 in males.
+
+### FEMALES
+The study on FEMALES showed that those who received the vaccine had a much lower chance of getting Covid-921 compared to those who got a placebo. The vaccine lowered the odds of infection by about 46.9%. Statistical tests gave very low p-values (0.00000001914 and 0.00000001246), below 0.05, leading us to reject the null hypothesis. This strongly supports that the Covid-921 vaccine is effective in reducing infections among females.
+
+### LGBTQ
+In the study for the LGBTQ community, results showed a big drop in Covid-921 cases among those who got the vaccine. There was about a 55.2% lower risk compared to the placebo group. Statistical tests gave very low p-values (0.000002266 and 0.0000007269), so we reject the null hypothesis. This means the vaccine significantly lowers the risk of getting Covid-921 in the LGBTQ community.
+
+### DRUG USERS
+For DRUG USERS, the data showed a higher infection rate in the vaccine group (3.61%) compared to the placebo group (0.33%), which is unexpected. Despite these strange results, statistical tests gave very low p-values (0.0000000001414 and 0.000000000003261). This suggests a significant difference between the groups, but the higher infection risk with the vaccine needs more investigation. Because of this, we don't reject the null hypothesis for drug users.
