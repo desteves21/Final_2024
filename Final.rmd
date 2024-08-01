@@ -47,7 +47,16 @@ barchartGC(~infected + treatment,data=males,type="percent")
 
 ```
 
-This graph shows that the males who got the placebo treatment were more infected than the males that were vaccinated. However, about 50% of males with placebos and about 50% of males with the vaccine were not infected.  
+This graph shows that the males who got the placebo treatment were more infected than the males that were vaccinated. However, about 50% of males with placebos and about 50% of males with the vaccine were not infected. 
+
+#### Numerical Results
+
+```{r}
+table1 <- xtabs(~treatment + infected,data=males)
+rowPerc(table1)
+colPerc(table1)
+```
+This shows that about 74% of males who took the placebo got COVID-19, whereas about 26% of males who got the vaccine got COVID-19.
 
 ## Females
 
