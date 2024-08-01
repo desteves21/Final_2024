@@ -33,8 +33,21 @@ $H_A$: The Covid-921 vaccine is effective in males.
 ### methods
 
 Treatment - categorical), Male - categorical
-Analysis File: CAT~CAT
+Helper File: CAT~CAT
 
+### Descriptive Results
+
+#### Graphical Results
+
+
+```{r}
+males=filter(FinalData,FinalData$sex=="M")
+barchartGC(~treatment + infected,data=males)
+barchartGC(~infected + treatment,data=males,type="percent")
+
+```
+
+This graph shows that the males who got the placebo treatment were more infected than the males that were vaccinated. However, about 50% of males with placebos and about 50% of males with the vaccine were not infected.  
 
 ## Females
 
