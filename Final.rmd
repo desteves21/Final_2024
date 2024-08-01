@@ -102,6 +102,9 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+This reveals that the COVID-19 vaccine significantly decreases the likelihood of catching the virus compared to the placebo. Specifically, those who receive the vaccine have approximately 46.9% lower odds of getting COVID-19 compared to those who receive the placebo. The relative risk reduction is about 45.5%, meaning that the vaccine reduces the risk of infection by about 45.5% relative to the placebo.
+
+
 ## LGBTQ
 
 
