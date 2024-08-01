@@ -117,6 +117,10 @@ The chi-square test result of 0.00000001914 and Fisher’s Exact Test result of 
 
 ## LGBTQ
 
+$H_0$: The Covid-921 vaccine is not effective in preventing COVID-19 in the LGBTQ community.
+
+$H_A$: The Covid-921 vaccine is effective in preventing COVID-19 in the LGBTQ community.
+
 
 
 ## Druggies
