@@ -81,6 +81,16 @@ $H_A$: The Covid921 vaccine is effective in females
 Treatment-categorical), Female-categorical
 Helper File: CAT ~ CAT
 
+### Descriptive Results
+
+#### Graphical Results
+
+```{r}
+females=filter(FinalData,FinalData$sex=="F")
+barchartGC(~treatment + infected,data=females)
+barchartGC(~infected + treatment,data=females,type="percent")
+
+```
 
 
 ## LGBTQ
