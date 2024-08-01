@@ -104,6 +104,16 @@ colPerc(table1)
 
 This reveals that the COVID-19 vaccine significantly decreases the likelihood of catching the virus compared to the placebo. Specifically, those who receive the vaccine have approximately 46.9% lower odds of getting COVID-19 compared to those who receive the placebo. The relative risk reduction is about 45.5%, meaning that the vaccine reduces the risk of infection by about 45.5% relative to the placebo.
 
+#### Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The chi-square test result of 0.00000001914 and Fisher’s Exact Test result of 0.00000001246 both confirm the statistical significance of the difference in infection rates between the vaccine and placebo groups. The odds ratio of 1.8562 indicates that the likelihood of contracting COVID-19 with the placebo is about 1.86 times higher than with the vaccine. The 95% confidence interval, ranging from 1.49 to 2.32, further supports the effectiveness of the vaccine.  
+
 
 ## LGBTQ
 
