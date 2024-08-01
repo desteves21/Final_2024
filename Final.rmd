@@ -153,6 +153,18 @@ colPerc(table3)
 The results show that the COVID-19 vaccine effectively reduces the risk of contracting the virus. People who received the vaccine have about a 24% chance of getting COVID-19 compared to those who received a placebo. This means the vaccine reduces the infection risk by about 44.8% compared to the placebo. Overall, the vaccine offers a significant protective effect with a relative risk reduction of approximately 55.2%.
 
 
+## Infrenital Results
+
+```{r}
+chisq.test(table3)
+chisqtestGC(table3)
+fisher.test(table3)
+
+```
+
+
+
+The COVID-19 vaccine greatly reduces the risk of getting the virus. People with the vaccine have only 24% of the chance of infection compared to those with a placebo. This means the vaccine cuts the infection risk by about 44.8%. Overall, the vaccine reduces the risk by about 55.2%.
 
 
 ## Druggies
