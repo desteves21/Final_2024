@@ -71,6 +71,17 @@ The analysis shows a difference in COVID-19 infection rates between the placebo 
 
 ## Females
 
+$H_0$: The Covid921 vaccine is not effective in females
+
+$H_A$: The Covid921 vaccine is effective in females
+
+### Methods
+
+
+Treatment-categorical), Female-categorical
+Helper File: CAT ~ CAT
+
+
 
 ## LGBTQ
 
