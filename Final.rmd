@@ -26,6 +26,15 @@ A new  preventative vaccine (covid921) is under test in clinical trials. Given t
 
 ## Males
 
+$H_0$: The Covid-921 vaccine is not effective in males.
+
+$H_A$: The Covid-921 vaccine is effective in males.
+
+### methods
+
+Treatment - categorical), Male - categorical
+Analysis File: CAT~CAT
+
 
 ## Females
 
