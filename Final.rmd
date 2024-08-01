@@ -174,4 +174,11 @@ $H_0$: The Covid-921 vaccine is not effective in preventing COVID-19 in drug use
 $H_A$: The Covid-921 vaccine is effective in preventing COVID-19 in drug users.
 
 
+### Methods
+
+Drug User-categorical, Treatment-categorical
+Helper File: CAT~CAT
+
+
+
 # Overall Results and Conclusions
