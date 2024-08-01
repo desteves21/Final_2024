@@ -141,6 +141,16 @@ barchartGC(~infected + treatment, data=LGBTQData, type="percent")
 
 This graph shows that the people in the LGBTQ community who got the placebo were more infected than those who were vaccinated. However, about 45% of those with placebos and about 49% of those with the vaccine were not infected.
 
+### Numerical Descriptive Results
+
+```{r}
+table3 <- xtabs(~infected + treatment, data=LGBTQData)
+rowPerc(table3)
+colPerc(table3)
+
+```
+
+The results show that the COVID-19 vaccine effectively reduces the risk of contracting the virus. People who received the vaccine have about a 24% chance of getting COVID-19 compared to those who received a placebo. This means the vaccine reduces the infection risk by about 44.8% compared to the placebo. Overall, the vaccine offers a significant protective effect with a relative risk reduction of approximately 55.2%.
 
 
 
