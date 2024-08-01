@@ -169,5 +169,9 @@ The COVID-19 vaccine greatly reduces the risk of getting the virus. People with 
 
 ## Druggies
 
+$H_0$: The Covid-921 vaccine is not effective in preventing COVID-19 in drug users.
+
+$H_A$: The Covid-921 vaccine is effective in preventing COVID-19 in drug users.
+
 
 # Overall Results and Conclusions
