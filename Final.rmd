@@ -58,6 +58,17 @@ colPerc(table1)
 ```
 This shows that about 74% of males who took the placebo got COVID-19, whereas about 26% of males who got the vaccine got COVID-19.
 
+#### Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+
+The analysis shows a difference in COVID-19 infection rates between the placebo and vaccine groups. Both the chi-square test and Fisher’s Exact Test yielded a p-value of 0.00000000022, indicating a strong reduction in the risk of contracting COVID-19 for those vaccinated. Specifically, individuals receiving the placebo are about 2.82 times more likely to contract COVID-19 compared to those who received the vaccine. The 95% confidence interval further supports the vaccine’s high effectiveness.
+
 ## Females
 
 
