@@ -193,5 +193,30 @@ barchartGC(~infected + treatment, data=DruggiesData, type="percent")
 
 This graph shows that the drug users who got the placebo were less likely to get COVID-19 than those who got the vaccine, with both groups having about 50% remaining uninfected.
 
+### Numerical Descriptive Results
+
+```{r}
+table4 <- xtabs(~infected + treatment, data=DruggiesData)
+rowPerc(table4)
+colPerc(table4)
+
+```
+
+The data reveals a 3.28% difference in COVID-19 infection rates between the groups. Specifically, 3.61% of those who received the vaccine contracted COVID-19, compared to 0.33% of those who received the placebo. Among those who remained healthy, there was a difference of only about 2.61%. This unusual finding suggests the vaccine may increase the risk of infection compared to the placebo, which could indicate an anomaly in the data or a specific aspect of the study that warrants further investigation. Typically, one would expect a vaccine to reduce, rather than increase, the risk of COVID-19.  
+
+## Infrenital Results
+
+```{r}
+chisq.test(table4)
+chisqtestGC(table4)
+fisher.test(table4)
+
+```
+
+The p-value from the Chi-square Test is 0.0000000001414, suggesting that the vaccine does not effectively prevent COVID-19 among drug users. Similarly, Fisher's Exact Test yields a p-value of 0.000000000003261, indicating a minor difference in COVID-19 rates among drug users. We do not reject the null hypothesis because drug users can still contract COVID-19 regardless of whether they receive the vaccine or not. 
+
+
+
+
 
 # Overall Results and Conclusions
