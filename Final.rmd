@@ -92,6 +92,15 @@ barchartGC(~infected + treatment,data=females,type="percent")
 
 ```
 
+This graph shows that the females who got the placebo were more infected than the females that were vaccinated. However, about 50% of females with placebos and about 51% of females with the vaccine were not infected.  
+
+### Numerical Results
+
+```{r}
+table1 <- xtabs(~treatment + infected,data=males)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ## LGBTQ
 
